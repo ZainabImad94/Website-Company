@@ -1,0 +1,162 @@
+body{
+  color: #0A1612;
+  font-family: "Open Sans", sans-serif;
+}
+nav{
+  background-color: #F7CE3E;
+
+}
+.h1{
+  color: #1A2930;
+
+}
+.nav-link{
+  color:  #1A2930;
+  margin-right: 10px;
+}
+#navbarDropdownMenuLink{
+  color:  #1A2930;
+}
+#navbarDropdownMenuLink-333{
+  color:  #1A2930;
+}
+.nav-link:hover, #navbarDropdownMenuLink:hover, #navbarDropdownMenuLink-333:hover{
+  background-color: #1A2930;
+  color: white;
+  border-radius: 3px;
+}
+.top-header-area .contact-info a {
+    display: inline-block;
+    height: 40px;
+    padding: 0 30px;
+    line-height: 40px;
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 12px;
+    border-right: 1px solid #ebebeb;
+  }
+  .btn{
+    margin-left: 50px;
+    background-color: #0A1612;
+    color: white;
+  }
+  #mapMarker{
+    border-left: 1px solid #ebebeb;
+  }
+  .card-img-top{
+    height: 200px;
+  }
+  .top-header-area .contact-info a:hover, .top-header-area .contact-info a:focus {
+  color: #1b1b1b;
+  transition-duration: 500ms;
+  text-decoration: none;
+  outline: 0 solid transparent;
+}
+.controls-top{
+  text-align: center;
+  margin-top: 20px;
+}
+.controls-top a{
+  color: #F7CE3E;
+}
+.soc:hover{
+  transform: scale(1.5);
+background-color: #F7CE3E;
+  transition-duration: 200ms;
+
+  outline: 0 solid transparent;
+}
+a:hover, a:focus {
+  color: #1b1b1b;
+  transition-duration: 500ms;
+  text-decoration: none;
+  outline: 0 solid transparent;
+}
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+#hed{
+  text-align: center;
+  font-size: 80px;
+  color: #1A2930;
+  padding: 20px;
+  line-height: 100px;
+  font-family: 'Libre Baskerville', serif;
+}
+#fit{
+  text-align:justify;
+  font-weight: bold;
+}
+#hdr{
+  margin-top: 25px;
+
+}
+#fit{
+  font-family: 'Libre Baskerville', serif;
+}
+#hdr img{
+  margin-top: 50px;
+  border-radius: 100px;
+}
+.navbar-toggler:hover{
+  transform: scale(1.5);
+}
+
+.covered{
+  position:relative;
+  padding:30px;
+}
+.covered-img{
+  background:url('../img/pexels-p.jpeg');
+  opacity: .5;
+
+  background-size:cover;
+  background-position:center;
+  
+  position:absolute;
+  top:0;bottom:0;left:0;right:0;
+}
+.single-cool-facts-area {
+  position: relative;
+  z-index: 1;
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-radius: 6px; 
+}
+.single-cool-facts-area img {
+  display: block;
+  margin: 0 auto 15px; 
+}
+.single-cool-facts-area h2 {
+  font-size: 36px;
+  margin-bottom: 5px;
+  color: #3762f0; 
+}
+.single-cool-facts-area h5 {
+  margin-bottom: 0;
+  font-size: 18px; 
+}
+footer{
+  background-color: #eee;
+  
+  font-size: 14px;
+}
+.fot{
+  text-align: justify;
+}
+.fot a{
+  text-align: center;
+  padding: 10px;
+  color: #997a00;
+}
+.ion-android-calendar,.ion-android-person{
+  font-size: 10px;
+}
+.ion-chatbubble{
+  font-size: 10px;
+}
+b{
+  color: #997a00;
+}
+.btn-floating{
+  font-size: 30px;
+}

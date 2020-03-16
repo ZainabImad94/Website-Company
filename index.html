@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Company Website</title>
+	<meta charset="utf-8" name="viewport" content= "width=device-width, initial-scale=1.0"> 
+	<link rel="stylesheet" type="text/css" href="bootstrap4/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap4/css/custom.css">
+	<script type="text/javascript" src="Jquery/Jquery.js"></script>
+	<script type="text/javascript" src="bootstrap4/js/bootstrap.js"></script>
+	<script type="text/javascript" src="Jquery/JQ.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Bellota|Fredoka+One|Montserrat|Pacifico|Righteous&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Playfair+Display&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap4/fonts/css/ionicons.min.css">
+</head>
+<body>
+		<div class="top-header-area d-flex justify-content-between align-items-center">
+            <div class="contact-info">
+                <a href="#"><i class="fas fa-phone"></i> <span> Phone:</span> +44 300 303 0266</a>
+                <a href="#"><i class="fas fa-envelope"></i> <span> Email:</span> info@academy.com</a>
+            </div>
+            <div class="contact-info">
+                <a href="#" id="mapMarker"><i class="fas fa-map-marker-alt"></i> Location: Amman-KHalda.Bashitti Bu.71</a>
+            </div>
+        </div>
+    <nav class="navbar sticky-top navbar-expand-lg" >
+        <a class="navbar-brand" href="#"><span class="mb-0 h1">ACADEMY</span><img src="bootstrap4/img/orange.png" width="50px;" height="50px"></a>
+        <a class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-hamburger"></i></a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+
+                <li class="nav-item dropdown">
+        			<a class="nav-link dropdown" id="navbarDropdownMenuLink" aria-haspopup="true" aria-expanded="false">Courses <i class="fas fa-angle-down"></i></a>
+        			<div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+        				<a class="dropdown-item" href="#">Marketing Courses</a>
+          				<a class="dropdown-item" href="#">Programming Courses</a>
+          				<a class="dropdown-item" href="#">English Courses</a>
+        			</div>
+      			</li>
+                <li class="nav-item dropdown">
+        			<a class="nav-link dropdown" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Info <i class="fas fa-angle-down"></i></a>
+        			<div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+        				<a class="dropdown-item" href="#">About Us</a>
+          				<a class="dropdown-item" href="#">Contact Us</a>
+        			</div>
+      			</li>
+                <li class="nav-item dropdown">
+        			<a class="nav-link dropdown" id="navbarDropdownMenuLink-333" data-toggle="dropdown"aria-haspopup="true" aria-expanded="false"><i class="fas fa-user"></i> <i class="fas fa-angle-down"></i></a>
+        			<div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
+					    <form class="px-4 py-3">
+					      <div class="form-group">
+					        <label for="exampleDropdownFormEmail1">Email address</label>
+					        <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+					      </div>
+					      <div class="form-group">
+					        <label for="exampleDropdownFormPassword1">Password</label>
+					        <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+					      </div>
+					      <div class="form-check">
+					        <input type="checkbox" class="form-check-input" id="dropdownCheck">
+					        <label class="form-check-label" for="dropdownCheck">
+					          Remember me
+					        </label>
+					      </div>
+					      <button type="submit" class="btn btn-primary">Sign in</button>
+					    </form>
+					    <div class="dropdown-divider"></div>
+					    <a class="dropdown-item" href="#">New around here? Sign up</a>
+					    <a class="dropdown-item" href="#">Forgot password?</a>
+					</div>
+      			</li>
+            </ul>
+           
+            <form class="form-inline">
+    			<div class="md-form my-0">
+      				<input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+    			</div>
+  			</form>
+            <ul class="navbar-nav nav-flex-icons">
+                <li class="nav-item">
+                    <a class="nav-link soc"><i class="fab fa-linkedin"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link soc"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link soc"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link soc"><i class="fab fa-google-plus"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link soc"><i class="fab fa-youtube"></i></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+	<section style="">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-12 covered">
+					<div class="covered-img">
+					</div>
+					<div class="row justify-content-center">
+						<div class="col-lg-5 justify-content-center" id="hdr">
+							<p id="hed">Training Academy</h1></p>
+							<p id="fit">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+							</p>
+						</div>
+					</div>
+				</div>
+			</div></div>
+			<div class="container-fluid" style=" background-color: #eee;">
+				<div class="container">
+					<div class="row" style="padding: 20px;">
+		                <div class="col-12 col-sm-6 col-lg-3">
+		                    <div class="single-cool-facts-area text-center">
+		                        
+		                            <img src="bootstrap4/img/png/013-statistics-1.png">
+		                        
+		                        <h2><span class="counter-count">1912</span></h2>
+		                        <h5>Statistical</h5>
+		                    </div>
+		                </div>
+		                <div class="col-12 col-sm-6 col-lg-3">
+		                    <div class="single-cool-facts-area text-center" >
+		                        <div class="icon">
+		                            <img src="bootstrap4/img/png/014-teacher.png">
+		                        </div>
+		                        <h2><span class="counter-count">83</span></h2>
+		                        <h5>Instructors</h5>
+		                    </div>
+		                </div>
+		                <div class="col-12 col-sm-6 col-lg-3">
+		                    <div class="single-cool-facts-area text-center">
+		                        <div class="icon">
+		                            <img src="bootstrap4/img/png/015-pc.png">
+		                        </div>
+		                        <h2><span class="counter-count">239</span></h2>
+		                        <h5>Available Courses</h5>
+		                    </div>
+		                </div>
+		                <div class="col-12 col-sm-6 col-lg-3">
+		                    <div class="single-cool-facts-area text-center">
+		                        <div class="icon">
+		                            <img src="bootstrap4/img/png/008-tick.png">
+		                        </div>
+		                        <h2><span class="counter-count">356</span></h2>
+		                        <h5>Designs</h5>
+		                    </div>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+		</div>
+	    <div class="container" style="margin-top: 50px; background-color: white; padding: 20px;">
+			<div class="row justify-content-center">
+				<h1 style="padding: 20px; margin-bottom: 20px;">Popular Courses</h1>
+				<div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+					<div class="carousel-inner" role="listbox">
+						<div class="carousel-item active" >
+							<div class="row">
+								<div class="col-md-4">
+									<div class="card">
+										<div class="view overlay">
+											<img class="card-img-top" src="bootstrap4/img/pexels-photo-1181244.jpeg">
+											<a>
+												<div class="mask rgba-white-slight"></div>
+											</a>
+										</div>
+										<div class="card-body">
+											<h4 class="card-title">Android <i class="devicon-android-plain"></i></h4>
+											<hr>
+											<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card'scontent.</p>
+										</div>
+										<div class="rounded-bottom mdb-color lighten-3 text-center pt-3">
+											<ul class="list-unstyled list-inline font-small">
+												<li class="list-inline-item pr-2 white-text"><i class="far fa-clock pr-1"></i>05/10/2015</li>
+												<button type="button" class="btn">Read More <i class="fas fa-angle-double-right"></i></button>
+											</ul>
+										</div>
+									</div>
+							    </div>
+							    <div class="col-md-4">
+									<div class="card">
+										<div class="view overlay">
+											<img class="card-img-top" src="bootstrap4/img/pexels-photo-270366.jpeg" >
+											<a>
+												<div class="mask rgba-white-slight"></div>
+											</a>
+										</div>
+										<div class="card-body">
+											<h4 class="card-title">IOS <i class="devicon-apple-original colored"></i></h4>
+											<hr>
+											<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card'scontent.</p>
+										</div>
+										<div class="rounded-bottom mdb-color lighten-3 text-center pt-3">
+											<ul class="list-unstyled list-inline font-small">
+												<li class="list-inline-item pr-2 white-text"><i class="far fa-clock pr-1"></i>05/10/2015</li>
+												<button type="button" class="btn btn-dark" style="margin-left: 50px;">Read More <i class="fas fa-angle-double-right"></i></button>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-4">
+								    <div class="card">
+										<div class="view overlay">
+											<img class="card-img-top" src="bootstrap4/img/photo-.jpg">
+											<a>
+												<div class="mask rgba-white-slight"></div>
+											</a>
+										</div>
+										<div class="card-body">
+											<h4 class="card-title">Web Development <i class="devicon-devicon-plain"></i></h4>
+											<hr>
+											<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card'scontent.</p>
+										</div>
+										<div class="rounded-bottom mdb-color lighten-3 text-center pt-3">
+											<ul class="list-unstyled list-inline font-small">
+												<li class="list-inline-item pr-2 white-text"><i class="far fa-clock pr-1"></i>05/10/2015</li>
+												<button type="button" class="btn btn-dark" style="margin-left: 50px;">Read More <i class="fas fa-angle-double-right"></i></button>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="row">
+								<div class="col-md-4">
+							        <div class="card">
+										<div class="view overlay">
+											<img class="card-img-top" src="bootstrap4/img/pexels-photo.jpeg">
+											<a>
+												<div class="mask rgba-white-slight"></div>
+											</a>
+										</div>
+										<div class="card-body">
+											<h4 class="card-title">Marketing <i class="devicon-coffeescript-original-wordmark"></i></h4>
+											<hr>
+											<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card'scontent.</p>
+										</div>
+										<div class="rounded-bottom mdb-color lighten-3 text-center pt-3">
+											<ul class="list-unstyled list-inline font-small">
+												<li class="list-inline-item pr-2 white-text"><i class="far fa-clock pr-1"></i>05/10/2015</li>
+												<button type="button" class="btn btn-dark" style="margin-left: 50px;">Read More <i class="fas fa-angle-double-right"></i></button>
+											</ul>
+										</div>
+									</div>
+							    </div>
+								<div class="col-md-4">
+									<div class="card">
+										<div class="view overlay">
+											<img class="card-img-top" src="bootstrap4/img/pexels-photo-31.jpeg">
+											<a>
+												<div class="mask rgba-white-slight"></div>
+											</a>
+										</div>
+										<div class="card-body">
+											<h4 class="card-title">Marketing <i class="devicon-docker-plain"></i></h4>
+											<hr>
+											<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card'scontent.</p>
+										</div>
+										<div class="rounded-bottom mdb-color lighten-3 text-center pt-3">
+											<ul class="list-unstyled list-inline font-small">
+												<li class="list-inline-item pr-2 white-text"><i class="far fa-clock pr-1"></i>05/10/2015</li>
+												<button type="button" class="btn btn-dark" style="margin-left: 50px;">Read More <i class="fas fa-angle-double-right"></i></button>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="card">
+										<div class="view overlay">
+											<img class="card-img-top" src="bootstrap4/img/pexels-photo-3.jpeg">
+											<a>
+												<div class="mask rgba-white-slight"></div>
+											</a>
+										</div>
+										<div class="card-body">
+											<h4 class="card-title">Marketing <i class="devicon-gulp-plain"></i></h4>
+											<hr>
+											<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card'scontent.</p>
+										</div>
+										<div class="rounded-bottom mdb-color lighten-3 text-center pt-3">
+											<ul class="list-unstyled list-inline font-small">
+												<li class="list-inline-item pr-2 white-text"><i class="far fa-clock pr-1"></i>05/10/2015</li>
+												<button type="button" class="btn btn-dark" style="margin-left: 50px;">Read More <i class="fas fa-angle-double-right"></i></button>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="row">
+								<div class="col-md-4">
+							        <div class="card">
+										<div class="view overlay">
+											<img class="card-img-top" src="bootstrap4/img/person-woman-park-music.jpg">
+											<a>
+												<div class="mask rgba-white-slight"></div>
+											</a>
+										</div>
+										<div class="card-body">
+											<h4 class="card-title">English <i class="devicon-safari-plain"></i></h4>
+											<hr>
+											<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card'scontent.</p>
+										</div>
+										<div class="rounded-bottom mdb-color lighten-3 text-center pt-3">
+											<ul class="list-unstyled list-inline font-small">
+												<li class="list-inline-item pr-2 white-text"><i class="far fa-clock pr-1"></i>05/10/2015</li>
+												<button type="button" class="btn btn-dark" style="margin-left: 50px;">Read More <i class="fas fa-angle-double-right"></i></button>
+											</ul>
+										</div>
+									</div>
+							    </div>
+								<div class="col-md-4">
+									<div class="card">
+										<div class="view overlay">
+											<img class="card-img-top" src="bootstrap4/img/people-woman-coffee-meeting.jpg">
+											<a>
+												<div class="mask rgba-white-slight"></div>
+											</a>
+										</div>
+										<div class="card-body">
+											<h4 class="card-title">Grammer <i class="devicon-safari-plain"></i></h4>
+											<hr>
+											<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card'scontent.</p>
+										</div>
+										<div class="rounded-bottom mdb-color lighten-3 text-center pt-3">
+											<ul class="list-unstyled list-inline font-small">
+												<li class="list-inline-item pr-2 white-text"><i class="far fa-clock pr-1"></i>05/10/2015</li>
+												<button type="button" class="btn btn-dark" style="margin-left: 50px;">Read More <i class="fas fa-angle-double-right"></i></button>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="card">
+										<div class="view overlay">
+											<img class="card-img-top" src="bootstrap4/img/pexels-photo-25.jpeg">
+											<a>
+												<div class="mask rgba-white-slight"></div>
+											</a>
+										</div>
+										<div class="card-body">
+											<h4 class="card-title">Vocabulary <i class="devicon-safari-plain"></i></h4>
+											<hr>
+											<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card'scontent.</p>
+										</div>
+										<div class="rounded-bottom mdb-color lighten-3 text-center pt-3">
+											<ul class="list-unstyled list-inline font-small">
+												<li class="list-inline-item pr-2 white-text"><i class="far fa-clock pr-1"></i>05/10/2015</li>
+												<button type="button" class="btn btn-dark" style="margin-left: 50px;">Read More <i class="fas fa-angle-double-right"></i></button>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="controls-top">
+						<a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fas fa-chevron-left"></i></a>
+    					<a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fas fa-chevron-right"></i></a>
+    				</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="container-fluid">
+			<div class="row text-center" style="padding: 20px;">
+				<div class="col-md-3" style="padding: 20px; border-right: 1px #997a00 solid; text-align: justify;">
+					<h5 class="">Footer Content</h5>
+					<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
+				</div>
+				<div class="col-md-3 fot">
+					<h5 class="heading">Blog</h5>
+					<div>
+						<h6><a href=""> Consectetur Adipisicing Elit</a></h6>
+						<p><span class="ion-android-calendar"></span> May 29, 2018</a><a href="#"><span class="ion-android-person"></span> Admin</a><a href="#"><span class="ion-chatbubble"></span> 19</a>
+
+					</div>
+					<div>
+						<h6><a href=""> Consectetur Adipisicing Elit</a></h6>
+						<p><span class="ion-android-calendar"></span> May 29, 2018</a><a href="#"><span class="ion-android-person"></span> Admin</a><a href="#"><span class="ion-chatbubble"></span> 19</a>
+
+					</div>
+					<div>
+						<h6><a href=""> Consectetur Adipisicing Elit</a></h6>
+						<p><span class="ion-android-calendar"></span> May 29, 2018</a><a href="#"><span class="ion-android-person"></span> Admin</a><a href="#"><span class="ion-chatbubble"></span> 19</a>
+
+					</div>
+				</div>
+				<div class="col-md-3 fot">
+					<h5 class="heading">Blog</h5>
+					<div>
+						<h6><a href="">Consectetur Adipisicing Elit</a></h6>
+						<p><span class="ion-android-calendar"></span> May 29, 2018</a><a href="#"><span class="ion-android-person"></span> Admin</a><a href="#"><span class="ion-chatbubble"></span> 19</a>
+
+					</div>
+					<div>
+						<h6><a href=""> Consectetur Adipisicing Elit</a></h6>
+						<p><span class="ion-android-calendar"></span> May 29, 2018</a><a href="#"><span class="ion-android-person"></span> Admin</a><a href="#"><span class="ion-chatbubble"></span> 19</a>
+
+					</div>
+					<div>
+						<h6><a href=""> Consectetur Adipisicing Elit</a></h6>
+						<p><span class="ion-android-calendar"></span> May 29, 2018</a><a href="#"><span class="ion-android-person"></span> Admin</a><a href="#"><span class="ion-chatbubble"></span> 19</a>
+
+					</div>
+				</div>
+				<div class="col-md-3 fot">
+					<h5 class="heading">Blog</h5>
+					<div>
+						<h6><a href="#"> Consectetur Adipisicing Elit</a></h6>
+						<p><span class="ion-android-calendar"></span> May 29, 2018</a><a href="#"><span class="ion-android-person"></span> Admin</a><a href="#"><span class="ion-chatbubble"></span> 19</a>
+
+					</div>
+					<div>
+						<h6><a href="#">Consectetur Adipisicing Elit</a></h6>
+						<p><span class="ion-android-calendar"></span> May 29, 2018</a><a href="#"><span class="ion-android-person"></span> Admin</a><a href="#"><span class="ion-chatbubble"></span> 19</a>
+
+					</div>
+					<div>
+						<h6><a href="#"> Consectetur Adipisicing Elit</a></h6>
+						<p><span class="ion-android-calendar"></span> May 29, 2018</a><a href="#"><span class="ion-android-person"></span> Admin</a><a href="#"><span class="ion-chatbubble"></span> 19</a>
+
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<hr>
+		<div class="footer-copyright text-center" style="padding-bottom: 20px;">© 2020 Copyright: salameh.com <b> BY </b>zainab</a>
+		</div>
+	</footer>
+</body>
+</html>
